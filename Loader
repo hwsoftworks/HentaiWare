@@ -1,0 +1,19 @@
+function notif(hi)
+  wait(1.2)
+  game.StarterGui:SetCore("SendNotification", {
+    Title = "Hentai Ware";
+    Text = hi;
+    Icon = ""; 
+    Duration = 10;
+  })
+end
+
+if game.PlaceId == 3101667897 then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/hwsoftworks/legendsofspeed/main/script.lua", true))()
+elseif game.PlaceId == 10118559731 then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/hwsoftworks/niconextbots/main/hentai%20ware%20V1", true))()
+else
+  notif("Not Supported Game")
+  notif("Discord link copied")
+  setclipboard("discord.gg/pfe48nR6p4")
+end
