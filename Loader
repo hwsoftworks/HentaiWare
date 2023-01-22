@@ -9,7 +9,7 @@ function notif(hi)
 end
 
 if game.PlaceId == 3101667897 then
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/hwsoftworks/legendsofspeed/main/script.lua", true))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/hwsoftworks/legendsofspeed/main/RedirectToWorld.lua", true))()
 elseif game.PlaceId == 10118559731 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/hwsoftworks/niconextbots/main/hentai%20ware%20V1", true))()
 else
