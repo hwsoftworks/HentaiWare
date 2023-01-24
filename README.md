@@ -1,7 +1,10 @@
 
 # Hentai ware
 
-- Script hub with support for few games..
+- Script hub with support for the games:
+- Legends of Speed
+- Nico's Nexbots
+
 # Information
 
 - [Discord](discord.gg/pfe48nR6p4)
