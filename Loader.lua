@@ -1,12 +1,5 @@
-function notif(hi)
-  wait(1.2)
-  game.StarterGui:SetCore("SendNotification", {
-    Title = "Hentai Ware";
-    Text = "Welcome!";
-    Icon = ""; 
-    Duration = 10;
-  })
-end
+wait(1.2)
+notif("Welcome")
 
 -- Legends Of Speed
 if game.PlaceId == 3101667897 or game.PlaceId == 3232996272 or game.PlaceId == 3276265788 then
@@ -19,16 +12,10 @@ elseif game.PlaceId == 10118559731 then
 -- Michael's Zombies  
   
 elseif game.PlaceId == 8054462345 then
-    game.StarterGui:SetCore("SendNotification", {
-    Title = "Load the script inside the game, not in the lobby.";
-    Text = "Hentai Ware";
-    Icon = ""; 
-    Duration = 10;
-  })
+    notif("Load the script inside the game, not in the lobby.")
   
 elseif game.PlaceId == 9544666096 then
   loadstring(game:HttpGet('https://raw.githubusercontent.com/hwsoftworks/michaelszombies/main/script.lua', true))()
-  
   
 -- Else
 
