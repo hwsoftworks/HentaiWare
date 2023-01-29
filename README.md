@@ -4,6 +4,7 @@
 Script hub with support for the games:
 - Legends of Speed
 - Nico's Nexbots
+- Michael's Zombies
 
 # Information
 
