@@ -14,7 +14,7 @@ if game.PlaceId == 3101667897 or game.PlaceId == 3232996272 or game.PlaceId == 3
 
 -- Nico Nextbots
 elseif game.PlaceId == 10118559731 then
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/hwsoftworks/niconextbots/main/hentai%20ware%20V1", true))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/hwsoftworks/niconextbots/main/script.lua", true))()
 
 -- Michael's Zombies  
   
