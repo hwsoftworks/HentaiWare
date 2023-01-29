@@ -1,9 +1,24 @@
+function notif(hi)
+  wait(1.2)
+  game.StarterGui:SetCore("SendNotification", {
+    Title = "Hentai Ware";
+    Text = hi;
+    Icon = ""; 
+    Duration = 10;
+  })
+end
+
 wait(1.2)
 notif("Welcome")
 
 -- Legends Of Speed
-if game.PlaceId == 3101667897 or game.PlaceId == 3232996272 or game.PlaceId == 3276265788 then
+if game.PlaceId == 3101667897 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/hwsoftworks/legendsofspeed/main/RedirectToWorld.lua", true))()
+elseif game.PlaceId == 3232996272 then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/hwsoftworks/legendsofspeed/main/RedirectToWorld.lua", true))()
+elseif game.PlaceId == 3276265788 then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/hwsoftworks/legendsofspeed/main/RedirectToWorld.lua", true))()
+end
 
 -- Nico Nextbots
 elseif game.PlaceId == 10118559731 then
