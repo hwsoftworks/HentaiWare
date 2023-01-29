@@ -20,7 +20,7 @@ elseif game.PlaceId == 10118559731 then
   
 elseif game.PlaceId == 8054462345 then
     game.StarterGui:SetCore("SendNotification", {
-    Title = "Load the script inside the game.";
+    Title = "Load the script inside the game, not in the lobby.";
     Text = Hentai Ware;
     Icon = ""; 
     Duration = 10;
