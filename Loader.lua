@@ -16,6 +16,8 @@ if game.PlaceId == 3101667897 or game.PlaceId == 3232996272 or game.PlaceId == 3
 elseif game.PlaceId == 10118559731 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/hwsoftworks/niconextbots/main/hentai%20ware%20V1", true))()
 
+-- Michael's Zombies  
+  
 elseif game.PlaceId == 8054462345 then
     game.StarterGui:SetCore("SendNotification", {
     Title = "Load the script inside the game.";
@@ -26,6 +28,8 @@ elseif game.PlaceId == 8054462345 then
   
 elseif game.PlaceId == 9544666096 then
   loadstring(game:HttpGet('https://raw.githubusercontent.com/hwsoftworks/michaelszombies/main/script.lua', true))()
+  
+  
 -- Else
 
 else
